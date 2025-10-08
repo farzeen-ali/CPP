@@ -9,7 +9,7 @@ class Student{
         float marks;
 
         void inputData(){
-            cout<<"Enter Your Name: ";
+            cout<<"Your Name: ";
             getline(cin, name);
 
             cout<<"Enter your age: ";
