@@ -4,7 +4,6 @@ class Employee{
     public:
         string name;
         float salary;
-
         void getData(){
             cout<<"Enter Your Name: ";
             cin.ignore();
