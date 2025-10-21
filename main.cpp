@@ -5,7 +5,6 @@ class Student{
         string name;
         int age;
         float marks;
-
         void inputData(){
             cout<<"Your Name: ";
             getline(cin, name);
