@@ -8,7 +8,6 @@ class Student{
         void inputData(){
             cout<<"Your Name: ";
             getline(cin, name);
-
             cout<<"Enter your age: ";
             cin>>age;
 
