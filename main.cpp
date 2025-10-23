@@ -10,7 +10,6 @@ class Student{
             getline(cin, name);
             cout<<"Enter your age: ";
             cin>>age;
-
             cout<<"Enter your marks: ";
             cin>>marks;
         }
