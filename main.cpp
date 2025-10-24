@@ -13,7 +13,6 @@ class Student{
             cout<<"Enter your marks: ";
             cin>>marks;
         }
-
         void displayData(){
             cout<<"Your Name is: "<<name<<endl;
             cout<<"Your Age is: "<<age<<endl;
