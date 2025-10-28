@@ -18,7 +18,7 @@ class Student{
             cout<<"Your Age is: "<<age<<endl;
             cout<<"Your Marks is: "<<marks<<endl;
         }
-    
+
     };
 int main(){
     Student s1;
