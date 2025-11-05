@@ -8,40 +8,28 @@ class Employee{
         float salary;
 
         void getData(){
-            cout<<"Enter Your Name: ";
-            cin.ignore();
+            cout<<"Enter Employee Name: "<<endl;
             getline(cin, name);
-            cout<<"Enter Salary: ";
+            cout<<"Enter Salary: "<<endl;
             cin>>salary;
         }
        virtual void calculateBonus(){
-            cout<<"Employee Bonus: "<<salary * 0.05<<endl;
+            cout<<"Bonus: "<< salary * 0.05<<endl;
         }
 };
 
 class Manager : public Employee{
     public:
-        void calculateBonus() override{
-            cout<<"Manager Bonus: "<<salary * 0.10<<endl;
+          void calculateBonus() override{
+            cout<<"Bonus: "<< salary * 0.10<<endl;
         }
 };
 
 int main(){
-    Employee e;
-    Manager m;
-    int choice;
-    cout<<"Enter your choice: ";
-    cin>>choice;
-    if(choice == 1){
-        e.getData();
-        e.calculateBonus();
-    }
-    else if(choice == 2){
-        m.getData();
-        m.calculateBonus();
-    }
-    else {
-        cout<<"Invalid Choice!";
-    }
+      Employee e;
+      Manager m;
+
+      m.getData();
+      m.calculateBonus();
     return 0;
 }
