@@ -1,12 +1,9 @@
 #include<iostream>
-
 using namespace std;
-
 class Employee{
     public:
         string name;
         float salary;
-
         void getData(){
             cout<<"Enter Employee Name: "<<endl;
             getline(cin, name);
